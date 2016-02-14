@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <title>send message</title>
+    <style>
+    .main{
+        position:absolute;
+        top:20%;
+    }
+    input{
+        width: 100%;
+        text-align:center;
+    }
+    button{
+        position:relative;
+        left:28%;
+    }
+    </style>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+</div>
+<div ng-app="app" ng-controller="msgController" class="main">
+    <div class="container-fluid">
+        <form class="form-signin">
+            <div class="row">
+                    <div class="col-sm-12">
+                        <input class="input-block-level" placeholder="Enter your message" id="messageToPost" ng-model="msgBody" type="text"/>
+                        <button class="btn btn-info" ng-click="pullData()">Send Message</button>      
+                    </div>
+            </div>
+         </form>
+    </div>
+</div>
+</body>
+</html>

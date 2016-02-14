@@ -1,0 +1,20 @@
+{
+  "title": "RabbitMQAdd-on",
+  "name": "addontolink",
+  "version": "0.0.1",
+  "description": "addon for  mesages transmitting to RabbitMQ client",
+  "main": "index.js",
+  "author": "",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "dependencies": {
+    "socket.io": "~1.4.5",
+    "express": "~4.13.4"
+  }
+}
