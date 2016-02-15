@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="rabbit.js-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:3.2.4" level="project" />
+    <orderEntry type="library" name="rabbit.js-DefinitelyTyped" level="application" />
   </component>
 </module>

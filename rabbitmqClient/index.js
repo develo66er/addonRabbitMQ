@@ -20,14 +20,7 @@ var app = express();
 app.get('/:msg?', function (req, res) {
     console.log('ok ' + req.params.msg.toString());
     sendMessage(req.params.msg.toString());
-    res.writeHead(200, {
-        'Access-Control-Allow-Origin': 'http://localhost:8080',
-        'Access-Control-Allow-Headers': 'origin, content-type, accept, authorization,Cache-Control, pragma, Content-Type, X-Requested-With',
-        'Access-Control-Allow-Credentials': 'true',
-        'Access-Control-Allow-Methods': 'GET, POST, DELETE'
     });
-
-});
 
 
 app.listen(3000, function () {
